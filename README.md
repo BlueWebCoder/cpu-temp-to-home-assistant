@@ -11,8 +11,6 @@ Exécutez les commandes suivantes pour installer lm-sensors et configurer le mod
 
 ```bash
 sudo apt-get install lm-sensors
-sudo modprobe drivetemp
-echo drivetemp | sudo tee -a /etc/modules
 ```
 
 ### Étape 2 : Créer un jeton d'accès longue durée dans Home Assistant
